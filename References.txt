@@ -1,0 +1,2 @@
+index.html
+https://www.w3schools.com/tags/att_input_placeholder.asp
