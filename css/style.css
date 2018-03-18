@@ -18,26 +18,15 @@ html {
 
 h1,
 h2,
-h3 {
-    margin: 0 0 30px;
-    font-family: Montserrat,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-}
-
+h3,
 h4,
 h5,
 h6 {
     margin: 0 0 30px;
+    text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
-    color: white;
-    text-align: center;
-    font-size: 20px;
 }
 
 p {
@@ -308,7 +297,7 @@ hr {
 
 
 /* ===========================
---- Home
+--- Intro
 ============================ */
 
 .home {
@@ -574,7 +563,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 footer {
 	text-align: center;
-	padding: 50px 0 ;
+	padding: 10px 0 ;
 
 }
 
@@ -681,6 +670,8 @@ Parallax
 }
 
 .page-scroll .btn-circle i.animated {
+    transition-property: transform;
+    transition-duration: 1s;
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
@@ -688,6 +679,10 @@ Parallax
 }
 
 .page-scroll .btn-circle:hover i.animated {
+    animation-name: pulse;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -698,8 +693,22 @@ Parallax
     -moz-animation-timing-function: linear;
 }
 
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    } 
+}
+
 @-webkit-keyframes pulse {
-    0 {
+    0% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
@@ -716,7 +725,7 @@ Parallax
 }
 
 @-moz-keyframes pulse {
-    0 {
+    0% {
         -moz-transform: scale(1);
         transform: scale(1);
     }
