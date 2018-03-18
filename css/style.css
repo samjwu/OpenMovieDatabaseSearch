@@ -83,7 +83,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(30, 144, 255,0.5); /*dodgerblue*/
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -93,13 +93,13 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
-	    -webkit-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 	color: #fff;
@@ -140,13 +140,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
-}
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
-    outline: 0;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(30, 144, 255,1); /*dodgerblue*/
 }
 
 .navbar-toggle {
@@ -236,7 +230,7 @@ a:focus {
   border-radius: 0px;
   border: 5px solid #FF4136;
   box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
-  animation: shadowSpin 1s ease-in-out infinite;
+  animation: shadowSpin 0.75s ease-in-out infinite;
 }
 
 /* misc */
@@ -671,22 +665,22 @@ Parallax
 
 .page-scroll .btn-circle i.animated {
     transition-property: transform;
-    transition-duration: 1s;
+    transition-duration: 0.75s;
     -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
+    -webkit-transition-duration: 0.75s;
     -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
+    -moz-transition-duration: 0.75s;
 }
 
 .page-scroll .btn-circle:hover i.animated {
     animation-name: pulse;
-    animation-duration: 1.5s;
+    animation-duration: 0.75s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
+    -webkit-animation-duration: 0.75s;
+    -moz-animation-duration: 0.75s;
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
