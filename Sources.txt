@@ -14,6 +14,5 @@ http://gsgd.co.uk/sandbox/jquery/easing/
 http://jquery.org
 
 Images
-http://getwallpapers.com/collection/red-swirl-wallpaper
-https://i.pinimg.com/originals/e4/f8/30/e4f8309aefe4d1bf64d6d3391f997ee0.jpg
-https://wocorcaman.deviantart.com/art/Matrix-Orange-473598180
+https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/vfPFP3W/database-network-communication-loop_4vs516x_l__F0000.png
+https://images.pond5.com/binary-code-technology-digital-data-footage-021374535_prevstill.jpeg
