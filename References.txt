@@ -2,6 +2,17 @@ index.html
 http://www.iana.org/assignments/media-types/media-types.xhtml
 https://www.w3schools.com/tags/att_input_placeholder.asp
 https://www.w3schools.com/tags/att_input_size.asp
+https://www.w3schools.com/html/html5_syntax.asp
+
+scripts.js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 http://wesbos.com/arrow-functions/
 https://www.tutorialspoint.com/es6/es6_functions.htm
+https://www.w3schools.com/jquery/event_preventdefault.asp
+https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var-to-declare-a-variable
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+https://www.w3schools.com/js/js_conventions.asp
+https://davidwalsh.name/promises
+https://developers.google.com/web/fundamentals/primers/promises
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
