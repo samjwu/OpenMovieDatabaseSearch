@@ -19,3 +19,7 @@ https://davidwalsh.name/promises
 https://developers.google.com/web/fundamentals/primers/promises
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch
+https://danielmiessler.com/study/url-uri/
+https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.1.0/com.ibm.cics.ts.internet.doc/topics/dfhtl_uricomp.html
+https://www.w3.org/Addressing/URL/uri-spec.html
+http://codeheaven.io/how-to-use-axios-as-your-http-client/
