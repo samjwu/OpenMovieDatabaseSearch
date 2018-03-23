@@ -14,8 +14,10 @@ http://fontawesome.io
 http://fontawesome.io
 https://fonts.googleapis.com
 http://getbootstrap.com
+https://github.com/axios/axios
 http://gsgd.co.uk/sandbox/jquery/easing/
 http://jquery.org
+https://www.npmjs.com/package/axios
 
 Images
 https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/vfPFP3W/database-network-communication-loop_4vs516x_l__F0000.png

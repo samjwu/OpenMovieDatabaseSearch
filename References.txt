@@ -3,6 +3,9 @@ http://www.iana.org/assignments/media-types/media-types.xhtml
 https://www.w3schools.com/tags/att_input_placeholder.asp
 https://www.w3schools.com/tags/att_input_size.asp
 https://www.w3schools.com/html/html5_syntax.asp
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+https://nodejs.org/api/http.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 scripts.js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
