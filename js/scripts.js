@@ -16,7 +16,7 @@ function searchMovies(movietitle) {
                 <div class="col-md-3">
                     <div class="well text-center">
                         <img src="${moviedata.Poster}">
-                        <h5>${moviedata.Title}</h5>
+                        <h5>${moviedata.Title} (${moviedata.Year})</h5>
                         <a href="#" class="btn btn-primary" onclick="">More Information</a>
                     </div>
                 </div>
