@@ -2,6 +2,9 @@ $(document).ready(() => {
     $("#searchform").on("submit", (event) => {
         let movietitle = $("#movietitle").val();
         searchMovies(movietitle);
+        $('html, body').animate({
+            scrollTop: ($('#result').offset().top)
+        }, 1500);
         event.preventDefault();
     });
 });
