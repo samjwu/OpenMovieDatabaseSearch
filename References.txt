@@ -23,3 +23,11 @@ https://danielmiessler.com/study/url-uri/
 https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.1.0/com.ibm.cics.ts.internet.doc/topics/dfhtl_uricomp.html
 https://www.w3.org/Addressing/URL/uri-spec.html
 http://codeheaven.io/how-to-use-axios-as-your-http-client/
+https://medium.com/codingthesmartway-com-blog/getting-started-with-axios-166cb0035237
+http://exploringjs.com/es6/ch_template-literals.html
+https://developers.google.com/web/updates/2015/01/ES6-Template-Strings
+https://stackoverflow.com/questions/27678052/what-is-the-usage-of-the-backtick-symbol-in-javascript
+https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap
+https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
+https://www.w3schools.com/bootstrap/bootstrap_wells.asp

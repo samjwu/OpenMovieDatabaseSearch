@@ -11,6 +11,16 @@ function searchMovies(movietitle) {
         // console.log(responseobj);
         let moviesarray = responseobj.data.Search; //Search is Array of movie data
         let searchresult = "";
+        $.each(moviesarray, (index, moviedata) => {
+            searchresult += `
+                <div class="col-md-3">
+                    <div class="well text-center">
+                        <img src="${moviedata.Poster}">
+                        <h5>${moviedata.Title}</h5>
+                    </div>
+                </div>
+            `;
+        });
     }).catch((error) => {
         // console.log(responseobj);
     });
