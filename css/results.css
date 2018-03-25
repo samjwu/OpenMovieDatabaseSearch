@@ -1,3 +1,11 @@
 #searchresults img {
     width: 100%;
 }
+
+#searchresults .col-md-3 .well {
+    height: 100%;
+}
+
+#searchresults .col-md-3 img {
+    height: 100%;
+}
