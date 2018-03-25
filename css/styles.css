@@ -7,8 +7,8 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
-    color: #666;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
 }
 
 html {
@@ -83,7 +83,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(30, 144, 255,0.5); /*dodgerblue*/
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
@@ -562,11 +562,23 @@ footer {
 }
 
 footer p {
-	color: #f8f8f8;
+    color: #aaa;
+    font-size: 100%;
 }
 
 .credits, .credits a {
-    color: #fff;
+    color: #aaa;
+    background-color: none;
+    text-decoration: none;
+}
+
+.credits a:hover {
+    cursor: default;
+}
+
+.credit-col {
+    float: left;
+    width: 50%;
 }
 
 /* ==========================
