@@ -20,7 +20,7 @@ function searchMovies(movietitle) {
                     <div class="well text-center">
                         <img src="${moviedata.Poster}">
                         <h5>${moviedata.Title} (${moviedata.Year})</h5>
-                        <a href="#" class="btn btn-primary" onclick="">More Information</a>
+                        <a href="#" class="btn btn-primary" onclick="showMoreInfo('${moviedata.imdbID}')">More Information</a>
                     </div>
                 </div>
             `;
@@ -29,4 +29,8 @@ function searchMovies(movietitle) {
     }).catch((error) => {
         console.log(responseobj);
     });
+}
+
+function showMoreInfo(imdbid) {
+    
 }
