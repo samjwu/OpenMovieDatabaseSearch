@@ -7,6 +7,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 https://nodejs.org/api/http.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
+results.css
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+https://www.w3schools.com/cssref/pr_dim_min-height.asp
+https://www.w3schools.com/cssref/pr_dim_max-height.asp
+
 scripts.js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 http://wesbos.com/arrow-functions/

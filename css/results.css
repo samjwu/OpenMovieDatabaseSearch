@@ -6,10 +6,16 @@
     width: 100%;
 }
 
-#searchresults .col-md-3 .well {
-    height: 100%;
-}
+@media(min-width:800px) {
+    #searchresults .col-md-3 .well {
+        background: #000;
+        border: none;
+        min-height: 400px;
+        max-height: 400px;
+    }
 
-#searchresults .col-md-3 img {
-    height: 100%;
+    #searchresults .col-md-3 img {
+        min-height: 250px;
+        max-height: 250px;
+    }
 }
