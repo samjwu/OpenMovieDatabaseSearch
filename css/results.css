@@ -2,11 +2,16 @@
     color: #000;
 }
 
-#searchresults img {
-    width: 100%;
+#searchresults .col-md-3 .well {
+    background: #000;
+    border: none;
 }
 
-@media(min-width:800px) {
+@media(min-width:1000px) {
+    #searchresults img {
+        width: 175px;
+    }
+
     #searchresults .col-md-3 .well {
         background: #000;
         border: none;

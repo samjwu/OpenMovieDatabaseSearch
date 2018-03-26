@@ -11,6 +11,7 @@ results.css
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 https://www.w3schools.com/cssref/pr_dim_min-height.asp
 https://www.w3schools.com/cssref/pr_dim_max-height.asp
+https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 scripts.js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
