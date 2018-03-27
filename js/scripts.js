@@ -20,7 +20,7 @@ function searchMovies(movietitle) {
                     <div class="well text-center">
                         <img src="${moviedata.Poster}">
                         <h5>${moviedata.Title} (${moviedata.Year})</h5>
-                        <a href="#" class="btn btn-primary" onclick="showMoreInfo('${moviedata.imdbID}')">More Information</a>
+                        <a href="#" class="btn btn-primary" onclick="setMovieID('${moviedata.imdbID}')">More Information</a>
                     </div>
                 </div>
             `;
@@ -31,8 +31,17 @@ function searchMovies(movietitle) {
     });
 }
 
-function showMoreInfo(imdbid) {
-    sessionStorage.setItem("id", imdbid);
+function setMovieID(imdbid) {
+    sessionStorage.setItem("movieid", imdbid);
     window.location = "movieinfo.html";
     return false;
+}
+
+function showMoreInfo() {
+    let movieid = sessionStorage.getItem("movieid");    
+    axios.get("http://www.omdbapi.com/?apikey=b69472c7&i=" + movieid).then((responseobj) => {
+        console.log(responseobj);
+    }).catch((error) => {
+        console.log(responseobj);
+    });
 }
