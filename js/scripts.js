@@ -32,5 +32,7 @@ function searchMovies(movietitle) {
 }
 
 function showMoreInfo(imdbid) {
-    
+    sessionStorage.setItem("id", imdbid);
+    window.location = "movieinfo.html";
+    return false;
 }
