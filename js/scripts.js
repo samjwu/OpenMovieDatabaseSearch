@@ -41,7 +41,11 @@ function showMoreInfo() {
     let movieid = sessionStorage.getItem("movieid");    
     axios.get("http://www.omdbapi.com/?apikey=b69472c7&i=" + movieid).then((responseobj) => {
         console.log(responseobj);
-        let movieinfo = responseobj.data;
+        let moviedata = responseobj.data;
+        let movieinformation = `
+            <div class="row">
+            </div>
+        `;
     }).catch((error) => {
         console.log(responseobj);
     });
