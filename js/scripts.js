@@ -59,6 +59,14 @@ function showMoreInfo() {
                         <li class="list-group-item"><strong>Genre:</strong> ${moviedata.Genre}</li>
                 <div>
             </div>
+            <div class="row">
+                <div class="well">
+                    <h3>Synopsis<h3>
+                    ${moviedata.Plot}
+                    <hr>
+                    <a href="http://imdb.com/title/${moviedata.imdbID}" class="btn btn-primary" target="_blank">IMDb Information</a>
+                </div>
+            </div>
         `;
     }).catch((error) => {
         console.log(responseobj);

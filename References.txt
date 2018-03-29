@@ -42,3 +42,5 @@ https://www.w3schools.com/html/html5_webstorage.asp
 https://www.w3schools.com/jsref/prop_win_sessionstorage.asp
 https://alligator.io/js/introduction-localstorage-sessionstorage/
 https://getbootstrap.com/docs/4.0/components/list-group/
+https://www.w3schools.com/tags/tag_hr.asp
+https://www.w3schools.com/tags/att_a_target.asp
