@@ -44,6 +44,12 @@ function showMoreInfo() {
         let moviedata = responseobj.data;
         let movieinformation = `
             <div class="row">
+                <div class="col-md-4">
+                    <img class="thumbnail" src="${moviedata.Poster}">
+                <div>
+                <div class="col-md-8">
+                    <h2>${moviedata.Title}</h2>
+                <div>
             </div>
         `;
     }).catch((error) => {
