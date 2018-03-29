@@ -69,6 +69,7 @@ function showMoreInfo() {
                 </div>
             </div>
         `;
+        $("#movieinfo").html(movieinformation);
     }).catch((error) => {
         console.log(responseobj);
     });

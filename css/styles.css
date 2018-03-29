@@ -428,13 +428,13 @@ hr {
 
 
 /* ===========================
---- Services
+--- MovieInfo
 ============================ */
 
-.service-icon {
-	margin-bottom: 20px;
+.boxed-grey {
+	background: #f9f9f9;
+	padding: 20px;
 }
-
 
 
 /* ===========================
