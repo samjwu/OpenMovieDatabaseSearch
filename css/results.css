@@ -1,3 +1,6 @@
+/* ===========================
+--- Index
+============================ */
 #movietitle {
     color: #000;
 }
@@ -23,4 +26,20 @@
         min-height: 250px;
         max-height: 250px;
     }
+}
+
+/* ===========================
+--- MovieInfo
+============================ */
+#movieinfo {
+    text-align: center;
+    margin: auto;
+}
+
+#movieinfo .well {
+    background: #000;
+}
+
+.list-group-item {
+    background: #000;
 }

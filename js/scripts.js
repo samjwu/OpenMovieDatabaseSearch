@@ -62,10 +62,12 @@ function showMoreInfo() {
             <div class="row">
                 <div class="well">
                     <h3>Synopsis<h3>
-                    ${moviedata.Plot}
+                    <p>${moviedata.Plot}</p>
                     <hr>
                     <a href="http://imdb.com/title/${moviedata.imdbID}" class="btn btn-primary" target="_blank">IMDb Information</a>
+                    <!--
                     <a href="index.html" class="btn btn-primary">Home</a>
+                    -->
                 </div>
             </div>
         `;
