@@ -59,23 +59,20 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-
 }
 
 .navbar-brand {
     font-weight: 700;
-}
-.navbar-brand {
-  height: 40px;
-  padding: 5px 15px;
-  font-size: 18px;
-  line-height: 1em;
+    height: 40px;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 1em;
 }
 
 .navbar-brand h1{
-	color: #fff;
-  font-size: 20px;
-  line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .navbar-brand:focus {

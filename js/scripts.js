@@ -43,31 +43,33 @@ function showMoreInfo() {
         console.log(responseobj);
         let moviedata = responseobj.data;
         let movieinformation = `
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="thumbnail" src="${moviedata.Poster}">
-                <div>
-                <div class="col-md-8">
-                    <h2>${moviedata.Title}</h2>
-                    <ul class="list-group">
-                        <li class="list-group-item"><strong>Rating:</strong> ${moviedata.Rated}</li>
-                        <li class="list-group-item"><strong>IMDb Rating:</strong> ${moviedata.imdbRating}</li>
-                        <li class="list-group-item"><strong>Director:</strong> ${moviedata.Director}</li>
-                        <li class="list-group-item"><strong>Actors:</strong> ${moviedata.Actors}</li>
-                        <li class="list-group-item"><strong>Writer:</strong> ${moviedata.Writer}</li>
-                        <li class="list-group-item"><strong>Release:</strong> ${moviedata.Released}</li>
-                        <li class="list-group-item"><strong>Genre:</strong> ${moviedata.Genre}</li>
-                <div>
-            </div>
-            <div class="row">
-                <div class="well">
-                    <h3>Synopsis<h3>
-                    <p>${moviedata.Plot}</p>
-                    <hr>
-                    <a href="http://imdb.com/title/${moviedata.imdbID}" class="btn btn-primary" target="_blank">IMDb Information</a>
-                    <!--
-                    <a href="index.html" class="btn btn-primary">Home</a>
-                    -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="thumbnail" src="${moviedata.Poster}">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>${moviedata.Title}</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item"><strong>Rating:</strong> ${moviedata.Rated}</li>
+                            <li class="list-group-item"><strong>IMDb Rating:</strong> ${moviedata.imdbRating}</li>
+                            <li class="list-group-item"><strong>Director:</strong> ${moviedata.Director}</li>
+                            <li class="list-group-item"><strong>Actors:</strong> ${moviedata.Actors}</li>
+                            <li class="list-group-item"><strong>Writer:</strong> ${moviedata.Writer}</li>
+                            <li class="list-group-item"><strong>Release:</strong> ${moviedata.Released}</li>
+                            <li class="list-group-item"><strong>Genre:</strong> ${moviedata.Genre}</li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="well">
+                        <h3>Synopsis<h3>
+                        <p>${moviedata.Plot}</p>
+                        <hr>
+                        <a href="http://imdb.com/title/${moviedata.imdbID}" class="btn btn-primary" target="_blank">IMDb</a>
+                        <!--
+                        <a href="index.html" class="btn btn-primary">Home</a>
+                        -->
+                    </div>
                 </div>
             </div>
         `;
