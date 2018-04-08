@@ -12,6 +12,7 @@ https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 https://www.w3schools.com/cssref/pr_dim_min-height.asp
 https://www.w3schools.com/cssref/pr_dim_max-height.asp
 https://www.w3schools.com/css/css3_mediaqueries_ex.asp
+https://www.w3schools.com/css/css_align.asp
 
 scripts.js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
@@ -44,3 +45,5 @@ https://alligator.io/js/introduction-localstorage-sessionstorage/
 https://getbootstrap.com/docs/4.0/components/list-group/
 https://www.w3schools.com/tags/tag_hr.asp
 https://www.w3schools.com/tags/att_a_target.asp
+https://www.jquery-az.com/bootstrap-container-and-container-fluid-what-is-the-difference/
+https://www.w3schools.com/bootstrap/bootstrap_grid_large.asp
