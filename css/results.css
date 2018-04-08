@@ -55,6 +55,10 @@
     background: #000;
 }
 
+#movieinfo .btn {
+    background: dodgerblue;
+}
+
 .list-group-item {
     background: #000;
     width: auto;
