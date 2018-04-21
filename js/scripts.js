@@ -10,7 +10,7 @@ $(document).ready(() => {
 });
 
 function searchMovies(movietitle) {
-    axios.get("http://www.omdbapi.com/?apikey=b69472c7&s=" + movietitle).then((responseobj) => {
+    axios.get("https://www.omdbapi.com/?apikey=b69472c7&s=" + movietitle).then((responseobj) => {
         console.log(responseobj);
         let moviesarray = responseobj.data.Search; //Search is Array of movie data
         let searchresult = "";
@@ -39,7 +39,7 @@ function setMovieID(imdbid) {
 
 function showMoreInfo() {
     let movieid = sessionStorage.getItem("movieid");    
-    axios.get("http://www.omdbapi.com/?apikey=b69472c7&i=" + movieid).then((responseobj) => {
+    axios.get("https://www.omdbapi.com/?apikey=b69472c7&i=" + movieid).then((responseobj) => {
         console.log(responseobj);
         let moviedata = responseobj.data;
         let movieinformation = `
@@ -65,7 +65,7 @@ function showMoreInfo() {
                         <h3>Synopsis<h3>
                         <p>${moviedata.Plot}</p>
                         <hr>
-                        <a href="http://imdb.com/title/${moviedata.imdbID}" class="btn btn-primary" target="_blank">IMDb</a>
+                        <a href="https://imdb.com/title/${moviedata.imdbID}" class="btn btn-primary" target="_blank">IMDb</a>
                         <!--
                         <a href="index.html" class="btn btn-primary">Home</a>
                         -->
